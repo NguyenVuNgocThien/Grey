@@ -1,12 +1,10 @@
 {
   "users": [
     {
-      "id":0,
       "username:": "ThienNguyen",
       "pass": "Thien26102001"
     },
     {
-      "id":1,
       "username:": "ThangVu",
       "pass": "ThangVu"
     }
