@@ -9,6 +9,11 @@
       "id": 1,
       "username:": "ThangVu",
       "pass": "ThangVu"
+    },
+    {
+      "id": 2,
+      "username": "ThienTran",
+      "pass": "ThienTran"
     }
   ]
 }
