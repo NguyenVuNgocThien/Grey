@@ -14,6 +14,16 @@
       "id": 2,
       "username": "ThienTran",
       "pass": "ThienTran"
+    },
+    {
+      "Pass": "ThienThang",
+      "User": "ThangThien",
+      "id": 3
+    },
+    {
+      "Pass": "123456",
+      "User": "thien26102001",
+      "id": 4
     }
   ]
 }
