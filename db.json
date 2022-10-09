@@ -1,34 +1,203 @@
 {
   "users": [
     {
-      "id": 0,
-      "username:": "ThienNguyen",
-      "pass": "Thien26102001"
-    },
-    {
       "id": 1,
-      "username:": "ThangVu",
-      "pass": "ThangVu"
-    },
+      "username:": "0907879210",
+      "pass": "Thien"
+    }
+  ],
+  "producers": [
     {
+      "address": "27 Le Van Khuong",
+      "id": 3,
+      "ownerName": "Thien",
+      "phone": "0123456",
+      "user": {
+        "accessRights": true,
+        "password": "1234",
+        "username": "0123456"
+      }
+    }
+  ],
+  "certificators": [
+    {
+      "address": "29 ABC",
+      "certficationScope": "10001",
+      "email": "abc@gmail.com",
       "id": 2,
-      "username": "ThienTran",
-      "pass": "ThienTran"
+      "locatorCode": "00101",
+      "phoneNumber": "0123456",
+      "user": {
+        "accessRights": true,
+        "password": "123",
+        "username": "0123456"
+      }
+    }
+  ],
+  "products": [
+    {
+      "certificationDate": "8/10/2022",
+      "id": 3,
+      "producer": {
+        "address": "27 Le Van Khuong",
+        "id": 3,
+        "ownerName": "Thien",
+        "phone": "0123456",
+        "user": {
+          "accessRights": true,
+          "password": "1234",
+          "username": "0123456"
+        }
+      },
+      "productCode": "Fish",
+      "productName": "Cá",
+      "status": false,
+      "vietgapCode": "FISH"
     },
     {
-      "Pass": "ThienThang",
-      "User": "ThangThien",
-      "id": 3
+      "certificationDate": "8/10/2022",
+      "id": 4,
+      "producer": {
+        "address": "27 Le Van Khuong",
+        "id": 3,
+        "ownerName": "Thien",
+        "phone": "0123456",
+        "user": {
+          "accessRights": true,
+          "password": "1234",
+          "username": "0123456"
+        }
+      },
+      "productCode": "Goat",
+      "productName": "Dê",
+      "status": false,
+      "vietgapCode": "GOAT"
     },
     {
-      "Pass": "123456",
-      "User": "thien26102001",
-      "id": 4
+      "certificationDate": "8/10/2022",
+      "id": 5,
+      "producer": {
+        "address": "27 Le Van Khuong",
+        "id": 3,
+        "ownerName": "Thien",
+        "phone": "0123456",
+        "user": {
+          "accessRights": true,
+          "password": "1234",
+          "username": "0123456"
+        }
+      },
+      "productCode": "Meat",
+      "productName": "Thịt",
+      "status": false,
+      "vietgapCode": "MEAT"
+    }
+  ],
+  "blocks": [
+    {
+      "action": "Add",
+      "id": 0,
+      "producer": {
+        "address": "27 Le Van Khuong",
+        "id": 3,
+        "ownerName": "Thien",
+        "phone": "0123456",
+        "user": {
+          "accessRights": true,
+          "password": "1234",
+          "username": "0123456"
+        }
+      },
+      "product": {
+        "certificationDate": "8/10/2022",
+        "id": 0,
+        "producer": {
+          "address": "27 Le Van Khuong",
+          "id": 3,
+          "ownerName": "Thien",
+          "phone": "0123456",
+          "user": {
+            "accessRights": true,
+            "password": "1234",
+            "username": "0123456"
+          }
+        },
+        "productCode": "Fish",
+        "productName": "Cá",
+        "status": false,
+        "vietgapCode": "FISH"
+      },
+      "status": false
     },
     {
-      "Pass": "123456",
-      "User": "123",
-      "id": 5
+      "action": "Add",
+      "id": 1,
+      "producer": {
+        "address": "27 Le Van Khuong",
+        "id": 3,
+        "ownerName": "Thien",
+        "phone": "0123456",
+        "user": {
+          "accessRights": true,
+          "password": "1234",
+          "username": "0123456"
+        }
+      },
+      "product": {
+        "certificationDate": "8/10/2022",
+        "id": 0,
+        "producer": {
+          "address": "27 Le Van Khuong",
+          "id": 3,
+          "ownerName": "Thien",
+          "phone": "0123456",
+          "user": {
+            "accessRights": true,
+            "password": "1234",
+            "username": "0123456"
+          }
+        },
+        "productCode": "Goat",
+        "productName": "Dê",
+        "status": false,
+        "vietgapCode": "GOAT"
+      },
+      "status": false
+    },
+    {
+      "action": "Add",
+      "id": 2,
+      "producer": {
+        "address": "27 Le Van Khuong",
+        "id": 3,
+        "ownerName": "Thien",
+        "phone": "0123456",
+        "user": {
+          "accessRights": true,
+          "password": "1234",
+          "username": "0123456"
+        }
+      },
+      "product": {
+        "certificationDate": "8/10/2022",
+        "id": 0,
+        "producer": {
+          "address": "27 Le Van Khuong",
+          "id": 3,
+          "ownerName": "Thien",
+          "phone": "0123456",
+          "user": {
+            "accessRights": true,
+            "password": "1234",
+            "username": "0123456"
+          }
+        },
+        "productCode": "Meat",
+        "productName": "Thịt",
+        "status": false,
+        "vietgapCode": "MEAT"
+      },
+      "status": false
     }
   ]
 }
