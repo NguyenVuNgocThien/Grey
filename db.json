@@ -1,96 +1,63 @@
 {
   "users": [
     {
-      "id": 1,
-      "username:": "0907879210",
-      "pass": "Thien"
+      "accessRights": true,
+      "isCer": false,
+      "password": "Thien",
+      "producer": {
+        "address": "27 Le Loi",
+        "id": 0,
+        "ownerName": "Thien Nguyen",
+        "phone": "0123"
+      },
+      "username": "0907879210",
+      "id": 0
+    },
+    {
+      "accessRights": true,
+      "certificator": {
+        "address": "27 Le Van Khuong",
+        "certficationScope": "Toan Quoc",
+        "email": "ngocthien3821@gmail.com",
+        "id": 0,
+        "locatorCode": "10001",
+        "phoneNumber": "0123456789"
+      },
+      "isCer": true,
+      "password": "Thien",
+      "username": "0123456789",
+      "id": 1
     }
   ],
   "producers": [
     {
-      "address": "27 Le Van Khuong",
-      "id": 3,
-      "ownerName": "Thien",
-      "phone": "0123456",
-      "user": {
-        "accessRights": true,
-        "password": "1234",
-        "username": "0123456"
-      }
+      "address": "27 Le Loi",
+      "id": 0,
+      "ownerName": "Thien Nguyen",
+      "phone": "0123"
     }
   ],
   "certificators": [
     {
-      "address": "29 ABC",
-      "certficationScope": "10001",
-      "email": "abc@gmail.com",
-      "id": 2,
-      "locatorCode": "00101",
-      "phoneNumber": "0123456",
-      "user": {
-        "accessRights": true,
-        "password": "123",
-        "username": "0123456"
-      }
+      "address": "27 Le Van Khuong",
+      "certficationScope": "Toan Quoc",
+      "email": "ngocthien3821@gmail.com",
+      "id": 0,
+      "locatorCode": "10001",
+      "phoneNumber": "0123456789"
     }
   ],
   "products": [
     {
-      "certificationDate": "8/10/2022",
-      "id": 3,
-      "producer": {
-        "address": "27 Le Van Khuong",
-        "id": 3,
-        "ownerName": "Thien",
-        "phone": "0123456",
-        "user": {
-          "accessRights": true,
-          "password": "1234",
-          "username": "0123456"
-        }
-      },
-      "productCode": "Fish",
-      "productName": "Cá",
-      "status": false,
-      "vietgapCode": "FISH"
-    },
-    {
-      "certificationDate": "8/10/2022",
-      "id": 4,
-      "producer": {
-        "address": "27 Le Van Khuong",
-        "id": 3,
-        "ownerName": "Thien",
-        "phone": "0123456",
-        "user": {
-          "accessRights": true,
-          "password": "1234",
-          "username": "0123456"
-        }
-      },
-      "productCode": "Goat",
-      "productName": "Dê",
-      "status": false,
-      "vietgapCode": "GOAT"
-    },
-    {
-      "certificationDate": "8/10/2022",
-      "id": 5,
-      "producer": {
-        "address": "27 Le Van Khuong",
-        "id": 3,
-        "ownerName": "Thien",
-        "phone": "0123456",
-        "user": {
-          "accessRights": true,
-          "password": "1234",
-          "username": "0123456"
-        }
-      },
-      "productCode": "Meat",
-      "productName": "Thịt",
-      "status": false,
-      "vietgapCode": "MEAT"
+      "address": "27 Le Loi",
+      "certificationDate": "15/10/2022",
+      "id": 0,
+      "isExpỉed": true,
+      "phone": "0123",
+      "productCode": "FISH201",
+      "productName": "Ca Basa",
+      "status": "Due",
+      "vietgapCode": "201"
     }
   ],
   "blocks": [
@@ -98,104 +65,21 @@
       "action": "Add",
       "id": 0,
       "producer": {
-        "address": "27 Le Van Khuong",
-        "id": 3,
-        "ownerName": "Thien",
-        "phone": "0123456",
-        "user": {
-          "accessRights": true,
-          "password": "1234",
-          "username": "0123456"
-        }
+        "address": "27 Ho Hao Hon",
+        "id": 0,
+        "ownerName": "Thien Nguyen",
+        "phone": "0907879210"
       },
       "product": {
-        "certificationDate": "8/10/2022",
+        "address": "27 Ho Hao Hon",
+        "certificationDate": "15/10/2022",
         "id": 0,
-        "producer": {
-          "address": "27 Le Van Khuong",
-          "id": 3,
-          "ownerName": "Thien",
-          "phone": "0123456",
-          "user": {
-            "accessRights": true,
-            "password": "1234",
-            "username": "0123456"
-          }
-        },
-        "productCode": "Fish",
-        "productName": "Cá",
-        "status": false,
-        "vietgapCode": "FISH"
-      },
-      "status": false
-    },
-    {
-      "action": "Add",
-      "id": 1,
-      "producer": {
-        "address": "27 Le Van Khuong",
-        "id": 3,
-        "ownerName": "Thien",
-        "phone": "0123456",
-        "user": {
-          "accessRights": true,
-          "password": "1234",
-          "username": "0123456"
-        }
-      },
-      "product": {
-        "certificationDate": "8/10/2022",
-        "id": 0,
-        "producer": {
-          "address": "27 Le Van Khuong",
-          "id": 3,
-          "ownerName": "Thien",
-          "phone": "0123456",
-          "user": {
-            "accessRights": true,
-            "password": "1234",
-            "username": "0123456"
-          }
-        },
-        "productCode": "Goat",
-        "productName": "Dê",
-        "status": false,
-        "vietgapCode": "GOAT"
-      },
-      "status": false
-    },
-    {
-      "action": "Add",
-      "id": 2,
-      "producer": {
-        "address": "27 Le Van Khuong",
-        "id": 3,
-        "ownerName": "Thien",
-        "phone": "0123456",
-        "user": {
-          "accessRights": true,
-          "password": "1234",
-          "username": "0123456"
-        }
-      },
-      "product": {
-        "certificationDate": "8/10/2022",
-        "id": 0,
-        "producer": {
-          "address": "27 Le Van Khuong",
-          "id": 3,
-          "ownerName": "Thien",
-          "phone": "0123456",
-          "user": {
-            "accessRights": true,
-            "password": "1234",
-            "username": "0123456"
-          }
-        },
-        "productCode": "Meat",
-        "productName": "Thịt",
-        "status": false,
-        "vietgapCode": "MEAT"
+        "isExpỉed": true,
+        "phone": "0907879210",
+        "productCode": "FISH201",
+        "productName": "Ca Hoi",
+        "status": "Due",
+        "vietgapCode": "201"
       },
       "status": false
     }
